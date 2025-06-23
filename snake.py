@@ -137,14 +137,11 @@ food.color("red")
 food.shapesize(FOOD_SIZE / 20)
 food.penup()
 food.speed(0)
-
-# Key bindings
 screen.listen()
 screen.onkey(go_up, "Up")
 screen.onkey(go_down, "Down")
 screen.onkey(go_left, "Left")
 screen.onkey(go_right, "Right")
-
-# Start the game
 reset()
 t.done()
+#vamsi
